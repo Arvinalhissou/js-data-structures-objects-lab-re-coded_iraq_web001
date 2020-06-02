@@ -11,7 +11,7 @@ return object
 }
 
 function deleteFromDriverByKey(object, key){
-  var newObj =  Object.assign({},object)
+  let newObj =  Object.assign({},object)
   delete newObj[key]
   return newObj
 }
